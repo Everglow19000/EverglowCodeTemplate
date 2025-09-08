@@ -26,6 +26,8 @@ public class KoalaLogTesting extends LinearOpMode {
 
         waitForStart();
 
+        motorTesting.setPower(0.5);
+
         while (opModeIsActive()) {
             AutoLogManager.periodic();
 
